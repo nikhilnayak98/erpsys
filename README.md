@@ -1,6 +1,6 @@
 # Smart ERP System
 
-The main objective behind the Smart ERP (Enterprise Resource Planning) is creating a central system while in traditional approach is to do a manual work in paper. So for that it’s very difficult to manage all the record and also difficult to analyze all the record in any departments. A manual work are to lengthy and its very time consuming for the entire department. So for that needs of central system is arising which gives the effective and efficient result within a few time. All departments can access the data with the system and also they can perform a desire task. With that all the data can easily manipulate and get easily whenever anybody wants.
+Smart ERP is a responsive, free and open source web based ERP System. Our aim is to create fast and easy-to-use enterprise software with an outstanding user experience. Equipped with wide and detailed functionality, it fits for companies from the solar industry and trade that are searching business software that provides high scalability and flexibility.
 
 ```
 MIT License
