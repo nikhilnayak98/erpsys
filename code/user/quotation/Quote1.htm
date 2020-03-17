@@ -1,0 +1,59 @@
+<div id="element-to-print">
+    <style type="text/css">
+        table, th, td {
+            border: 1px solid black;
+        }
+
+    </style>
+
+
+        <table style="max-width:100%;" width="100%">
+
+            <tr>
+                <th width="20%">asdsa</th>
+                <th width="30%">sadsa</th>
+                <th width="50%">sadsd</th>
+            </tr>
+            <tr>
+                <td>4545645</td>
+                <td>454545</td>
+                <td>sadsa</td>
+            </tr>
+
+
+
+
+
+
+
+
+        </table>
+
+
+
+        <strong></strong>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+    <script src="html2pdf.bundle.min.js"></script>
+    <script src="jspdf.min.js"></script>
+    <script src="html2canvas.min.js"></script>
+    <script src="html2pdf.min.js"></script>
+    <script>
+        var element = document.getElementById('element-to-print');
+
+        html2pdf(element, {
+            margin:       1,
+            filename:     'quote1.pdf',
+            image:        { type: 'jpeg', quality: 0.98 },
+            html2canvas:  { dpi: 192, letterRendering: true },
+            jsPDF:        { unit: 'in', format: , orientation: 'portrait' }
+        });</script>
+
+
+
+
+
+
